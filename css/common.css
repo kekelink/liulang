@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: #757575;
+    text-decoration: none;
+}
+/*让所有斜体 不倾斜*/
+em,
+i {
+    font-style: normal;
+}
+/*去掉列表前面的小点*/
+li {
+    list-style: none;
+}
+/*图片没有边框   去掉图片底侧的空白缝隙*/
+img {
+    border: 0;  /*ie6*/
+    vertical-align: middle;
+}
+/*让button 按钮 变成小手*/
+button {
+    cursor: pointer;
+    border: none;
+}
+/* 表格边框合并 */
+table {
+    border-collapse: collapse;
+}
+button,
+input {
+    font-family: 'Microsoft YaHei', 'Heiti SC', tahoma, arial, 'Hiragino Sans GB', \\5B8B\4F53, sans-serif;
+    outline: none;
+    vertical-align: middle;
+    border: none;
+}
+body{
+    font: 14px/1.5 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    /*color: #333;*/
+    background-color: #fff;
+    min-width: 1226px;
+}
+
+
+/*清除浮动*/
+
+.clearfix:after {
+    visibility: hidden;
+    clear: both;
+    display: block;
+    content: ".";
+    height: 0
+}
+
+.clearfix {
+    *zoom: 1
+}
+.w {
+    width: 1226px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+
+
+/*头部*/
+.site-topbar{
+    height: 50px;
+    margin: 0 auto;
+    background-color: #333333;
+}
+.topbar-nav{
+    /*float: left;*/
+    width: 800px;
+}
+.topbar-nav a{
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.topbar-nav span{
+    margin: 0 .5em;
+    color: #424242;
+}
+.topbar-info{
+    float: right;
+}
+.topbar-info a{
+    display: inline-block;
+    height: 100%;
+    line-height: 50px;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.topbar-info span{
+    margin: 0 .5em;
+    color: #424242;
+}
+.site-topbar a:hover{
+    color: #fff;
+}
+.topbar-cart a {
+    display:block;
+    width: 155px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.header_ll{
+    width: 100%;
+    height: 100px;
+
+}
+.header_logo {
+
+    width: 68px;
+    height: 68px;
+    margin-top: 17px;
+}
+.logo {
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 68px;
+    height: 68px;
+    background-image: url(../imgs/logo.png);
+    font-size: 0;
+}
+.header-nav{
+    width: 850px;
+    height: 100px;
+    /*background-color: #333333;*/
+}
+.nav-list {
+    float: left;
+    width: 820px;
+    height: 83px;
+    padding: 17px 0 0 30px;
+    font-size: 16px;
+    margin-left: 13px;
+}
+.nav-list .nav-item {
+    float: left;
+    height: 83px;
+    line-height: 68px;
+}
+.nav-list li .link{
+    padding: 26px 10px 38px;;
+}
+.nav-list li a:hover .text{
+    color: #ff6700;
+}
+.nav-category{
+    position: relative;
+    top: 22px;
+    float: left;
+    width: 127px;
+    padding-right: 15px;
+}
+.site-category{
+    position: absolute;
+    top: 61px;
+    left: -111px;
+    width: 220px;
+    height: 460px;
+
+}
+.site-category .site-category-list .category-item{
+    float: none;
+}
+.site-category-list {
+    width: 220px;
+    height: 420px;
+    background: rgba(0,0,0,0.6);
+    padding: 20px 0;
+}
+.site-category-list .title{
+    display: block;
+    height: 42px;
+    width: 100%;    
+    line-height: 42px;
+    padding: 0;
+    padding-left: 30px;
+    color: #fff;
+}
+.category-item .title{
+    display: block;
+}
+.header-search{
+    margin-top: 23px;
+}
+.search-form {
+    position: relative;
+    width:299px;
+    height: 50px;
+}
+/*.search-form:hover .search-text{*/
+    /*border-color: #ff6700;*/
+/*}*/
+.search-text {
+    width: 245px;
+    height: 48px;
+    border: 1px solid #b0b0b0;
+    border-right: none;
+}
+.search-btn {
+    height: 50px;
+    width: 50px;
+    background-color:#fff ;
+    border: 1px solid #b0b0b0;
+
+}
+.search-btn:hover{
+    background-color: #ff6700;
+    cursor: pointer;
+}
+.search-hot-words {
+    position: absolute;
+    top: 15px;
+    right: 62px;
+    text-align: right;
+}
+.search-hot-words a {
+    display: inline-block;
+    margin-right: 5px;
+    background-color: #eee;
+    font-size: 12px;
+}
