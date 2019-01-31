@@ -1,0 +1,289 @@
+
+.home-hero{
+    width: 100%;
+    height: 460px;
+    background-color: #ff6700;
+}
+.home-hero-slider{
+    
+    position: relative;
+    height: 460px;
+    overflow: hidden;
+}
+.home-hero-slideshow li a {
+    display: block;
+    height: 460px;
+}
+.home-hero-slideshow .xm_img{
+    height: 460px;
+
+}
+
+/*下部*/
+.home-hero-sub {
+    margin-top: 14px;
+}
+.span4{
+    width: 234px;
+    /*height: 170px;*/
+    background-color: #5f5750;
+}
+.home-channel-list{
+    position: relative;
+}
+.home-channel-list li {
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 70px;
+    height: 82px;
+    padding: 3px 3px;
+
+}
+
+.home-channel-list a {
+    display: block;
+    padding-top: 18px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    color: rgba(255,255,255,0.7);
+    text-align: center;
+    font-size: 12px;
+
+}
+.home-channel-list a:hover{
+    color: #fff;
+}
+
+.home-channel-list i {
+    display: block;
+    height: 24px;
+    margin-bottom: 6px;
+    font-size: 35px;
+    line-height: 24px;
+    text-align: center;
+}
+.home-channel-list .home-channel-list_li{
+    top: 6px;
+    left: 0;
+    width: 1px;
+    height: 70px;
+    padding: 0;
+    background-color: #665e57;
+}
+.home-channel-list .home-channel-list_li_top{
+    position: absolute;
+    top: 85px;
+    left: 6px;
+    width: 64px;
+    height: 1px;
+    padding: 0;
+    background-color: #665e57;
+}
+.home-channel-list .home-channel-list_li_top_1{
+    position: absolute;
+    top: 85px;
+    left: 83px;
+    width: 64px;
+    height: 1px;
+    padding: 0;
+    background-color: #665e57;
+}
+.home-channel-list .home-channel-list_li_top_2{
+    position: absolute;
+    top: 85px;
+    left: 160px;
+    width: 64px;
+    height: 1px;
+    padding: 0;
+    background-color: #665e57;
+}
+.span16{
+    width: 992px;
+}
+.home-promo-list{
+    width: 1000px;
+}
+.home-promo-list li {
+    float: left;
+    width: 316px;
+    height: 176px;
+    margin-left: 15px;
+    overflow: hidden;
+    transition:all 0.3s;
+}
+.home-promo-list li:hover{
+    box-shadow: 3px 10px 3px #b0b0b0;
+}
+.home-promo-list a {
+    display: block;
+    height: 176px;
+}
+.home-promo-list a  img{
+    height: 176px;
+}
+.xm-flashPurchase-countdown {
+    float: left;
+    width: 234px;
+    height: 340px;
+    /*background-color: #ff6700;*/
+    border-top: 1px solid #E53935;
+    background: #f1eded;
+    margin-right: 14px;
+}
+.xm-plain-box .box-hd{
+    height: 80px;
+    line-height: 80px;
+}
+.xm-plain-box .box-hd .box-hd_arrows {
+    width: 70px;
+    height: 24px;
+    margin-top: 42px;
+    line-height: 24px;
+    /*background-color: #ff6700;*/
+    border: 1px solid #e0e0e0;
+}
+.box-hd_arrows_fl{
+    display: inline-block;
+    height: 24px;
+    width: 35px;
+    text-align: center;
+    border-right: 1px solid #e0e0e0;
+    /*margin-left: 10px;*/
+}
+.box-hd_arrows_fr{
+    display: inline-block;
+    height: 24px;
+    width: 34px;
+    text-align: center;
+    /*margin-left: 10px;*/
+}
+/*小米秒杀开始*/
+.xm-plain-box .box-hd .title {
+    margin-top: 22px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 58px;
+    color: #333;
+}
+.xm-flashPurchase-countdown li {
+    /*background: #f1eded;*/
+    text-align: center;
+}
+.xm-flashPurchase-countdown li .countdown {
+    width: 168px;
+    margin: 28px auto 0;
+}
+ .xm-flashPurchase-countdown li .time-title {
+    font-size: 21px;
+    color: #ef3a3b;
+    padding-top: 30px;
+}
+ .xm-flashPurchase-countdown li .sub {
+    color: rgba(0,0,0,0.54);
+    font-size: 15px;
+}
+.xm-flashPurchase-countdown li img {
+    margin: 25px auto;
+}
+
+.xm-flashPurchase-countdown li .countdown .box{
+    width: 46px;
+    height: 46px;
+    float: left;
+    background-color: #605751;
+    font-size: 24px;
+    line-height: 46px;
+}
+.xm-flashPurchase-countdown li .countdown .dosh{
+    float: left;
+    width: 15px;
+    font-size: 28px;
+}
+.xm-carousel-wrapper{
+    overflow: hidden;
+}
+.xm-flashPurchase-list{
+    width: 3720px;
+}
+.xm-flashPurchase-list_a{
+    position: absolute;
+    display: block;
+    width: 234px;
+    height: 340px;
+
+}
+.xm-flashPurchase-list_a .bg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+}
+.xm-flashPurchase-list li {
+    position: relative;
+    float: left;
+    width: 234px;
+    height: 340px;
+    background-color: #FAFAFA;
+    text-align: center;
+    margin-right: 14px;
+}
+.xm-flashPurchase-list .rainbow-item-1{
+    border-top: 1px solid #FFAC13;
+}
+.xm-flashPurchase-list .content .thumb img {
+    width: 160px;
+    height: 160px;
+}
+.xm-flashPurchase-list  .content{
+    margin-top: 30px;
+}
+.xm-flashPurchase-list .content .title{
+    margin-top: 20px;
+}
+.xm-flashPurchase-list .content .title {
+    margin: 0 20px 3px;
+    font-size: 14px;
+    font-weight: 400;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+
+}
+.xm-flashPurchase-list .content .title a{
+    color: #212121;
+}
+.xm-flashPurchase-list .content  .desc {
+    height: 18px;
+    margin: 0 20px 12px;
+    font-size: 12px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+    color: #b0b0b0;
+}
+.xm-flashPurchase-list .content .price {
+    color: #ff6700;
+}
+.xm-flashPurchase-list .content .price del{
+    color: #b0b0b0;
+}
+/*小米秒杀结束*/
+.J_itemBox{
+    margin-top:50px;
+}
+
+.J_itemBox a{
+    display: block;
+    width: 1226px;
+    height: 120px;
+}
+.J_itemBox a img{
+    width: 1226px;
+    height: 120px;
+}
